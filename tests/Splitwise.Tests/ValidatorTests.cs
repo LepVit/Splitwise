@@ -73,7 +73,7 @@ public class ValidatorTests
     {
         var dto = ValidExpense() with { Splits = [new SplitDto(1, 100m, -1m)] };
 
-        _expense.TestValidate(dto).ShouldHaveAnyValidationError();
+        Assert.False(_expense.Validate(dto).IsValid);
     }
 
     [Fact]
