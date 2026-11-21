@@ -2,7 +2,7 @@
 
 REST API для обліку спільних витрат (аналог Splitwise) на **ASP.NET Core (.NET 10)**, **EF Core + PostgreSQL** та **ASP.NET Core Identity**.
 
-Живий Swagger: `https://<твій-сервіс>.onrender.com/swagger` *(після деплою вписати своє посилання)*
+Живий Swagger: https://splitwise-0gxd.onrender.com/swagger
 
 ## Архітектура
 
