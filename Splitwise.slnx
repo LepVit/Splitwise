@@ -1,0 +1,10 @@
+<Solution>
+  <Folder Name="/src/">
+    <Project Path="src/Splitwise.Api/Splitwise.Api.csproj" />
+    <Project Path="src/Splitwise.Core/Splitwise.Core.csproj" />
+    <Project Path="src/Splitwise.Infrastructure/Splitwise.Infrastructure.csproj" />
+  </Folder>
+  <Folder Name="/tests/">
+    <Project Path="tests/Splitwise.Tests/Splitwise.Tests.csproj" />
+  </Folder>
+</Solution>

@@ -1,0 +1,23 @@
+## .NET
+bin/
+obj/
+*.user
+*.suo
+.vs/
+.idea/
+.vscode/
+TestResults/
+coverage*/
+
+## Локальні налаштування та секрети (їх у git бути не повинно)
+appsettings.Local.json
+appsettings.*.local.json
+secrets.json
+.env
+.env.*
+*.pfx
+
+## Файли БД
+*.db
+*.sqlite
+*.sqlite3

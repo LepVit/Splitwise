@@ -1,0 +1,17 @@
+**/bin/
+**/obj/
+**/.vs/
+**/.idea/
+**/.vscode/
+.git/
+.github/
+.gitignore
+**/*.user
+**/TestResults/
+.env
+.env.*
+**/secrets.json
+**/appsettings.Development.json
+Dockerfile
+docker-compose.yml
+README.md

@@ -1,0 +1,16 @@
+# Лише для локальної розробки: PostgreSQL на localhost:5432.
+# Пароль "postgres" тут навмисно простий і не має стосунку до продакшну.
+services:
+  db:
+    image: postgres:16
+    environment:
+      POSTGRES_DB: splitwise
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: postgres
+    ports:
+      - "5432:5432"
+    volumes:
+      - splitwise-db:/var/lib/postgresql/data
+
+volumes:
+  splitwise-db:
